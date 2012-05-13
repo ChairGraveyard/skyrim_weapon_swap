@@ -114,10 +114,10 @@ void main()
 				
 				// If we're not swapping both, do the swap now.
 				if ( !swap_both )
-            {
+                {
 					swap_one_hand( player, right_hand_weapon, left_equip_command );
-               Wait( wait_time_for_swap );
-            }
+                    Wait( wait_time_for_swap );
+                }
 			}
 
             // Handle the left hand.
@@ -128,10 +128,10 @@ void main()
 				
 				// If we're not swapping both, do the swap now.
 				if ( !swap_both )
-            {
+                {
 					swap_one_hand( player, left_hand_weapon, right_equip_command );
-               Wait( wait_time_for_swap );
-            }
+                    Wait( wait_time_for_swap );
+                }
 			}
 			
 			// If we have two weapons equipped, 
@@ -150,7 +150,7 @@ void main()
 									right_equip_command, 
 									left_equip_command );									
 
-            Wait( wait_time_for_swap );
+                Wait( wait_time_for_swap );
 
 				swap_both = false;
 			}
