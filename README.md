@@ -10,17 +10,26 @@ http://forums.bethsoft.com/topic/1355668-rel-script-dragon-topic-6/
 
 Installation
 -----------------
-After installing the files from Script Dragon, copy weaponswap.asi and weaponswap.ini to SkyrimInstall\asi or SkyrimInstall\Data\asi where SkyrimInstall is your main Skyrim install directory (should have TESV.exe).
+After installing the files from Script Dragon, copy weaponswap.asi and weaponswap.ini (located in the \bin file of this archive) to SkyrimInstall\asi or SkyrimInstall\Data\asi where SkyrimInstall is your main Skyrim install directory (should have TESV.exe).
 
 Usage
 ------------
 With a weapon in either hand, press Home (or your preferred configured key, set in weaponswap.ini) to swap it to the other hand. Works with two weapons equipped as well.
 
-
-To Compile
+To Compile/For Developers
 -------------
-Add the project file to your Script Dragon solution. A rebuild will output the binary .asi file to the bin folder.
+Add the project file to your Script Dragon solution (or view weaponswap.cpp). A rebuild will output the binary .asi file to the bin folder after adding the project. Since the project is just one file, I am not going to include project files for various versions of Visual Studio as it is easy enough to copy one of the existing example projects and add weaponswap.cpp.
 
 Credits
 -------------------
 Alexander Blade for making Script Dragon and helping me get the functions for Weapon Swap working.
+
+License
+--------------
+WeaponSwap and it's source code are licensed under a Creative Commons Attribution 3.0 Unported (CC BY 3.0) license. This means you are free to share and remix the work (even commercially) under the following conditions:
+
+ - Attribution — You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).
+
+A "Thanks to ChairGraveyard for creating WeaponSwap" is fine.
+
+<a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
