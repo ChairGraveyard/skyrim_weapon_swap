@@ -25,11 +25,5 @@ Credits
 Alexander Blade for making Script Dragon and helping me get the functions for Weapon Swap working.
 
 License
---------------
-WeaponSwap and it's source code are licensed under a Creative Commons Attribution 3.0 Unported (CC BY 3.0) license. This means you are free to share and remix the work (even commercially) under the following conditions:
-
- - Attribution — You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).
-
-A "Thanks to ChairGraveyard for creating WeaponSwap" is fine.
-
+-------------
 <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
