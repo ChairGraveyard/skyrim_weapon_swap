@@ -10,7 +10,7 @@ http://forums.bethsoft.com/topic/1355668-rel-script-dragon-topic-6/
 
 Download
 ---------------
-http://skyrim.nexusmods.com/downloads/file.php?id=1961
+Check out with Git, download the zip or get it on Skyrim Nexus: http://skyrim.nexusmods.com/downloads/file.php?id=1961
 
 Installation
 -----------------
