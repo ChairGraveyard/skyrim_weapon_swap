@@ -73,11 +73,11 @@ void main()
 	{
 		if ( GetKeyPressed( key ) )
 		{
-         // Clear out the command buffers each time.
+		    // Clear out the command buffers each time.
 			memset( left_equip_command, 0, sizeof( left_equip_command ) );
 			memset( right_equip_command, 0, sizeof( right_equip_command ) );
 
-         // Get the player.
+            // Get the player.
 			CActor *player = Game::GetPlayer(); 
 			if ( !player )
 			{
@@ -92,8 +92,8 @@ void main()
 			TESObjectWEAP *right_hand_weapon = Actor::GetEquippedWeapon( player, false );
 			TESObjectWEAP *left_hand_weapon = Actor::GetEquippedWeapon( player, true );
 
-         // If we can't find a weapon in either hand,
-         // notify the user if error printing is enabled.
+            // If we can't find a weapon in either hand,
+            // notify the user if error printing is enabled.
 			if ( !right_hand_weapon && !left_hand_weapon )
 			{
 				if ( print_error_messages )
@@ -104,9 +104,9 @@ void main()
 			if ( right_hand_weapon && left_hand_weapon )
 				swap_both = true;
 
-         // Handle building and swapping the 
-         // right hand if we don't have 
-         // another weapon in the left.
+            // Handle building and swapping the 
+            // right hand if we don't have 
+            // another weapon in the left.
 			if ( right_hand_weapon )
 			{
 				// Build the swap to left command.
@@ -120,7 +120,7 @@ void main()
             }
 			}
 
-         // Handle the left hand.
+            // Handle the left hand.
 			if ( left_hand_weapon )
 			{
 				// Build the swap to right command.

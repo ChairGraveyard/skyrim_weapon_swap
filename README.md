@@ -8,6 +8,10 @@ Requirements
 ----------------------
 http://forums.bethsoft.com/topic/1355668-rel-script-dragon-topic-6/
 
+Download
+---------------
+http://skyrim.nexusmods.com/downloads/file.php?id=1961
+
 Installation
 -----------------
 After installing the files from Script Dragon, copy weaponswap.asi and weaponswap.ini (located in the \bin file of this archive) to SkyrimInstall\asi or SkyrimInstall\Data\asi where SkyrimInstall is your main Skyrim install directory (should have TESV.exe).
